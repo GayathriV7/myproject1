@@ -1,0 +1,64 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <title>Budget</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 style="background-color: grey ">ExpenseTracker</h1>
+    <div class="container">
+        <h2>Balance</h2>
+        <h1 id="amt" class="amt1">0.00</h1>
+
+        <div class="incexp">
+            <div>
+                <h3 style="text-align: left;">Income</h3>
+                <p id="addmoney" class="addmoney">+0.00</p>
+            </div>
+
+            <div>
+                <h3>Expenses</h3>
+                <p id="submoney" class="submoney">-0.00</p>
+            </div>
+        </div>
+
+        <div class="list">
+            <h3 class="adtn" > Transaction </h3>
+
+            <ul id="list" class="list">
+                <li class="minus">
+                    cash <span>100</span>
+                </li>
+            </ul>
+
+
+        </div>
+        <h3 class="adtn">Add Transaction</h3>
+
+        <form id="form">
+
+            <div class="form_control">
+                <label for="text" style="color: rgb(13, 30, 46); font-weight: bold;">Text</label>
+                <input type="text" id="text" placeholder="enter incomes/expenses">
+            </div>
+
+            <div class="form_control">
+                <label for="amount" style="color: rgb(11, 13, 15); font-weight: bold;">Amount</label>
+                <input type="number" name="number" id="amount" placeholder="enter amount">
+            </div>
+
+            <button class="btn">Enter</button>
+
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
